@@ -8,7 +8,7 @@ import { Plus, Rocket, Trash2, ExternalLink, Edit3, Calendar, User, LogOut, BarC
 
 const Dashboard = () => {
   const [mvps, setMvps] = useState([]);
-  const [userEmail, set uerEmail] = useState('');
+  const [userEmail, setUserEmail] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
